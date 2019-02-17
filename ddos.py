@@ -88,7 +88,7 @@ print(perawan())
 print(" ")
 bot = (gendeng(),kentir(),"\n")
 host = raw_input( "\033[94m[?] \033[97mHOST/IP Target\033[0m :\033[93m " )
-surat = raw_input( "\033[94m[?] \033[97mby? \033[0m:\033[93m " )
+surat = raw_input( "\033[94m[?] \033[97mBy? \033[0m:\033[93m " )
 paket = input( "\033[94m[+] \033[97mjumlah paket?:\033[93m ")
 #Mr.w0n63d4n
 ip = socket.gethostbyname( host )
