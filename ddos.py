@@ -118,5 +118,5 @@ for i in range(1,10000000):
 	galau = threading.Thread(target = janda)
 	galau.daemon = True
 	galau.start()
-	print (" [!]\033[95mTotal Paket\033[0m | \033[92m",i)
+	print (" [!]\033[95mTotal Paket\033[0m | \033[92m"),i
 print ("DONE !")
